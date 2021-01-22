@@ -16,3 +16,9 @@ const Modal = {
       .remove('active')
   }
 }
+
+let date = new Date().toJSON().substr(0,10)
+document
+  .querySelector('input#date')
+  .setAttribute('value', date)
+  
