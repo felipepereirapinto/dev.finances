@@ -36,6 +36,7 @@ O dev.finances é uma aplicação de controle financeiro, onde é possível cada
 Feito durante a <strong>1ª Maratona Discover</strong> cujo repositório original pode ser visto  [nesse link](https://github.com/rocketseat-education/maratona-discover-01#-tecnologias).
 
 ## 🛠️ Desafio
+
 Adicionar funcionalidades e entregar além do que é pedido conta pontos (assim como na vida real);
 
 
