@@ -214,8 +214,13 @@ td.expense {
 
 td.edit,
 td.remove {
-  width: 1px;
+  width: 1em;
   text-align: center;
+}
+
+td.edit img:hover,
+td.remove img:hover {
+  cursor: pointer;
 }
 
 /* Icons ==================== */
