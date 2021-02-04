@@ -22,7 +22,7 @@ const Storage = {
 }
 
 const Transaction = {
-  all: Storage.get(),
+  all: Storage.get().sort((a,b) => ( new Date(b.date.split('/').reverse()) - new Date(a.date.split('/').reverse()))),
 
   add(transaction) {
     Transaction.all.push(transaction)
@@ -82,10 +82,17 @@ const DOM = {
       <td class="description">${transaction.description}</td>
       <td class="${CSSclass}">${amount}</td>
       <td class="date">${transaction.date}</td>
-      <td>
-        <img 
+      <td class="edit">
+        <img class="icon"
+          onclick="Transaction.edit(${index})"
+          src="./assets/icon-cog.svg"
+          alt="Remover transação"
+        >
+      </td>
+      <td class="remove">
+        <img class="icon"
           onclick="Transaction.remove(${index})"
-          src="./assets/minus.svg"
+          src="./assets/icon-bin.svg"
           alt="Remover transação"
         >
       </td>

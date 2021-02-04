@@ -212,6 +212,25 @@ td.expense {
   color: var(--red)
 }
 
+td.edit,
+td.remove {
+  width: 1px;
+  text-align: center;
+}
+
+/* Icons ==================== */
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;  
+}
+
+
+
 /* Modal ==================== */
 .modal-overlay {
   width: 100%;
