@@ -1,9 +1,13 @@
-/* Global ==================== */
+/* ==================== */
+/* Global */
+/* ==================== */
+
 :root {
   --dark-blue: #363f5f;
   --green: #49aa26;
   --light-green: #3dd705;
   --red: #e92929;
+  --ice: #f0f2f5;
 }
 
 * {
@@ -17,7 +21,7 @@ html {
 }
 
 body {
-  background: #f0f2f5;
+  background: var(--ice);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -38,7 +42,10 @@ body {
   margin: auto;
 }
 
-/* Titles ==================== */
+/* ==================== */
+/* Titles */
+/* ==================== */
+
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
@@ -47,7 +54,10 @@ h2 {
   font-weight: normal;
 }
 
-/* Links and buttons ==================== */
+/* ==================== */
+/* Links and buttons */
+/* ==================== */
+
 a {
   color: var(--green);
   text-decoration: none;
@@ -85,6 +95,7 @@ button:hover {
 .button.cancel {
   color: var(--red);
   border: 2px var(--red) solid;
+  
   border-radius: 0.25rem;
 
   height: 50px;
@@ -100,7 +111,9 @@ button:hover {
   opacity: 1;
 }
 
-/* Header ==================== */
+/* ==================== */
+/* Header */
+/* ==================== */
 
 header {
   background: #2D4A22;
@@ -109,11 +122,14 @@ header {
 }
 
 #logo {
-  color: #fff;
+  color: white;
   font-weight: 100;
 }
 
-/* Balance ==================== */
+/* ==================== */
+/* Balance */
+/* ==================== */
+
 #balance {
   margin-top: -8rem;
 }
@@ -123,7 +139,10 @@ header {
   margin-top: 0;
 }
 
-/* Cards ==================== */
+/* ==================== */
+/* Cards */
+/* ==================== */
+
 .card {
   background: white;
   padding: 1.5rem 2rem;
@@ -155,7 +174,10 @@ header {
   color: white;
 }
 
-/* Table ==================== */
+/* ==================== */
+/* Table */
+/* ==================== */
+
 #transaction {
   display: block;
   width: 100%;
@@ -223,7 +245,9 @@ td.remove img:hover {
   cursor: pointer;
 }
 
-/* Icons ==================== */
+/* ==================== */
+/* Icons */
+/* ==================== */
 
 .icon {
   display: inline-block;
@@ -234,9 +258,10 @@ td.remove img:hover {
   fill: currentColor;  
 }
 
+/* ==================== */
+/* Modal */
+/* ==================== */
 
-
-/* Modal ==================== */
 .modal-overlay {
   width: 100%;
   height: 100%;
@@ -262,14 +287,17 @@ td.remove img:hover {
 }
 
 .modal {
-  background: #f0f2f5;
+  background: var(--ice);
   padding: 2.4rem;
 
   position: relative;
   z-index: 1;
 }
 
-/* Form ==================== */
+/* ==================== */
+/* Form */
+/* ==================== */
+
 #form {
   min-width: 500px;
 }
@@ -306,7 +334,10 @@ input {
   width: 48%;
 }
 
-/* Footer ==================== */
+/* ==================== */
+/* Footer */
+/* ==================== */
+
 footer {
   text-align: center;
   padding: 4rem 0 2rem;
@@ -314,7 +345,10 @@ footer {
   opacity: 0.6;
 }
 
-/* Responsive ==================== */
+/* ==================== */
+/* Responsive */
+/* ==================== */
+
 @media (min-width: 800px) {
   html {
     font-size: 87.5%;

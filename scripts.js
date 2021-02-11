@@ -197,7 +197,7 @@ const Form = {
   formatValues() {
     let { description, amount, date} = Form.getValues()
 
-    amount = Number(amount) * 100
+    amount = Math.round(amount * 100)
     date = date.split('-').reverse().join('/')
 
     return {
@@ -238,8 +238,28 @@ const Form = {
   }
 }
 
+const Theme = {
+  enable() {
+    const checkbox = document.getElementById('checkbox')
+  
+    checkbox.addEventListener('change', () => {
+      document.body.classList.toggle('dark')
+    })
+  }
+}
+
+
+
 const App = {
   init() {
+    Modal.closeOutside()
+    Theme.enable()
+    App.reload()
+  },
+
+  reload() {
+    DOM.clearTransactions()
+
     Transaction.all = Utils.sort(Transaction.all)
 
     Transaction.all.forEach(DOM.addTransaction)
@@ -247,11 +267,6 @@ const App = {
     DOM.updateBalance()
 
     Storage.set(Transaction.all)
-  },
-
-  reload() {
-    DOM.clearTransactions()
-    App.init()
   },
 }
 

@@ -1,0 +1,172 @@
+/* ==================== */
+/* Theme toggler config */
+/* ==================== */
+
+body {
+	transition: background 0.2s linear;
+}
+
+#theme-toggler {
+	position: relative;
+	top: -12rem;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.checkbox-label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+}
+
+.checkbox-label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+	transform: translateX(24px);
+}
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
+/* ==================== */
+/* Apply dark colors */
+/* ==================== */
+
+:root {
+	--background: #15202b;
+	--backgroundContrast:	#22303c;
+	--card: #192734;
+	--primaryText: #ffffff;
+	--secondaryText: #8899a6;
+	
+	--goodText: #50fa7b;
+	--badText: #ff79c6;
+
+	--buttonOk: #6272a4;
+	--buttonCancel: #ff5555;
+}
+     
+body.dark  {
+  background: var(--background);
+}
+
+body.dark h2 {
+  color: var(--primaryText);
+}
+
+body.dark a {
+  color: var(--secondaryText);
+}
+
+body.dark a:hover {
+  color: var(--primaryText);
+}
+
+body.dark button {
+  color: var(--primaryText);
+  background: var(--buttonOk);
+}
+
+body.dark button:hover {
+	color: var(--primaryText);
+	background: var(--buttonOk);
+  opacity: 0.5;
+}
+
+body.dark .button.cancel {
+  color: var(--buttonCancel);
+  border-color: var(--buttonCancel);
+	opacity: 1;
+}
+
+body.dark .button.cancel:hover {
+  color: var(--buttonCancel);
+  border-color: var(--buttonCancel);
+	opacity: 0.5;
+}
+
+body.dark header {
+  background: var(--backgroundContrast);
+}
+
+body.dark #logo {
+  color: var(--primaryText);
+}
+
+body.dark #balance h2 {
+  color: var(--primaryText);
+}
+
+body.dark .card {
+  background: var(--card);
+  color: var(--secondaryText);
+}
+
+body.dark .card.total {
+  background: var(--buttonOk);
+  color: var(--primaryText);
+}
+
+body.dark #data-table {
+  color: var(--secondaryText);
+}
+
+body.dark table th {
+  background: var(--backgroundContrast);
+}
+
+body.dark table tbody td {
+  background: var(--backgroundContrast);
+}
+
+body.dark td.description {
+  color: var(--primaryText);
+}
+
+body.dark td.income {
+  color: var(--goodText)
+}
+
+body.dark td.expense {
+  color: var(--badText)
+}
+
+body.dark .modal {
+  background: var(--background);
+	color: var(--secondaryText);
+}
+
+body.dark .modal input {
+	background: var(--backgroundContrast);
+	color: var(--secondaryText);
+}
+
+body.dark footer {
+  color: var(--primaryText);
+}
+
