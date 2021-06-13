@@ -42,13 +42,13 @@ Special thanks to Rocketseat for the [<strong>1st Discover Marathon</strong>](ht
 
 ## 🛠️ To-do
 
-[x] Theme Toggler (light | dark)
-[x] Deploy on (Netlify)[https://minhascontas.netlify.app/]
-[ ] Create new logo (dev.finances => my accounts)
-[ ] Synchronization with DB
-[ ] Add tags
-[ ] Filter by date / tags
-[ ] Duplicate / Repeat common expenses and earnings
+- [x] Theme Toggler (light | dark)
+- [x] Deploy on (Netlify)[https://minhascontas.netlify.app/]
+- [ ] Create new logo (dev.finances => my accounts)
+- [ ] Synchronization with DB
+- [ ] Add tags
+- [ ] Filter by date / tags
+- [ ] Duplicate / Repeat common expenses and earnings
 
 
 ## 📝 License
