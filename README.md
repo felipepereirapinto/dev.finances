@@ -5,9 +5,19 @@
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-planned-new-features">Planned New Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-to-do">To-do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
+
+<p align="space-between">
+  [Technologies](#technologies)
+  [Project](#project)
+  [To-do](#to-do)
+  [License](#license)
+</p>
+
+
+  <h2 id="introduction-to-everything">Introduction to everything</h2>
 
 <!-- 
 CORRIGIR ANCORA DO DESAFIO
@@ -39,7 +49,7 @@ dev.finances is a financial control application, where you can register and dele
 
 Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [<strong>1st Discover Marathon</strong>](https://github.com/rocketseat-education/maratona-discover-01).
 
-## 🛠️ Planned New Features
+## 🛠️ To-do
 
 - [x] Theme Toggler (light | dark)
 - [x] Deploy on (Netlify)[https://minhascontas.netlify.app/]
