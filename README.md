@@ -39,7 +39,7 @@ dev.finances is a financial control application, where you can register and dele
 
 Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [<strong>1st Discover Marathon</strong>](https://github.com/rocketseat-education/maratona-discover-01).
 
-## 🛠️ [To-do](#to-do)
+## 🛠️ [To-do](#-to-do)
 
 - [x] Theme Toggler (light | dark)
 - [x] Deploy on (Netlify)[https://minhascontas.netlify.app/]
