@@ -17,7 +17,6 @@
 </p>
 
 
-  <h2 id="introduction-to-everything">Introduction to everything</h2>
 
 <!-- 
 CORRIGIR ANCORA DO DESAFIO
@@ -48,6 +47,10 @@ This project was developed with the following technologies:
 dev.finances is a financial control application, where you can register and delete transactions and see the input and output balance 💰
 
 Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [<strong>1st Discover Marathon</strong>](https://github.com/rocketseat-education/maratona-discover-01).
+
+
+<h2 id="to-do">🛠️ To-do</h2>
+
 
 ## 🛠️ To-do
 
