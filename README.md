@@ -9,13 +9,6 @@
   <a href="#-license">License</a>
 </p>
 
-  [Technologies](#technologies)
-  [Project](#project)
-  [To-do](#to-do)
-  [License](#license)
-
-
-
 <!-- 
 CORRIGIR ANCORA DO DESAFIO
  -->
@@ -44,22 +37,17 @@ This project was developed with the following technologies:
 
 dev.finances is a financial control application, where you can register and delete transactions and see the input and output balance 💰
 
-Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [<strong>1st Discover Marathon</strong>](https://github.com/rocketseat-education/maratona-discover-01).
-
-
-<h2 id="to-do">🛠️ To-do</h2>
-
+Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [**1st Discover Marathon**](https://github.com/rocketseat-education/maratona-discover-01).
 
 ## 🛠️ To-do
 
 - [x] Theme Toggler (light | dark)
-- [x] Deploy on (Netlify)[https://minhascontas.netlify.app/]
+- [x] [Deploy on Netlify](https://minhascontas.netlify.app/)
 - [ ] Create new logo (dev.finances => my accounts)
 - [ ] Synchronization with DB
 - [ ] Add tags
 - [ ] Filter by date / tags
 - [ ] Duplicate / Repeat common expenses and earnings
-
 
 ## 📝 License
 
@@ -67,4 +55,4 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) file for mo
 
 ---
 
-Made by (Felipe)[https://github.com/felipepereirapinto]
+Made by [Felipe](https://github.com/felipepereirapinto)
