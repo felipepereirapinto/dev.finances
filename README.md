@@ -3,10 +3,10 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-desafio">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-to-do">To-do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
 <!-- 
@@ -25,29 +25,36 @@ CORRIGIR ANCORA DO DESAFIO
   <img alt="dev.finances" src="assets/devfinances.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - HTML
 - CSS
 - JavaScript
 
-## 💻 Projeto
+## 💻 Project
 
-O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
+dev.finances is a financial control application, where you can register and delete transactions and see the input and output balance 💰
 
-Feito durante a <strong>1ª Maratona Discover</strong> cujo repositório original pode ser visto  [nesse link](https://github.com/rocketseat-education/maratona-discover-01#-tecnologias).
+Special thanks to Rocketseat for the [<strong>1st Discover Marathon</strong>](https://github.com/rocketseat-education/marathon-discover-01#-tecnologias). -- [Join the community!
+](https://discordapp.com/invite/gCRAFhc)
 
-## 🛠️ Desafio
+## 🛠️ To-do
 
-Adicionar funcionalidades e entregar além do que é pedido conta pontos (assim como na vida real);
+[x] Theme Toggler (light | dark)
+[x] Deploy on (Netlify)[https://minhascontas.netlify.app/]
+[ ] Create new logo (dev.finances => my accounts)
+[ ] Synchronization with DB
+[ ] Add tags
+[ ] Filter by date / tags
+[ ] Duplicate / Repeat common expenses and earnings
 
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
 ---
 
-Feito com ♥ by Rocketseat 👋 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Made by (Felipe)[https://github.com/felipepereirapinto]
