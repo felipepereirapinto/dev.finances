@@ -9,12 +9,10 @@
   <a href="#-license">License</a>
 </p>
 
-<p align="space-between">
   [Technologies](#technologies)
   [Project](#project)
   [To-do](#to-do)
   [License](#license)
-</p>
 
 
 
