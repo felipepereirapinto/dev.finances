@@ -41,6 +41,8 @@ Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [*
 
 ## 🛠️ Planned Features
 
+Testando uma coisa.
+
 - [x] Theme Toggler (light | dark)
 - [x] [Deploy on Netlify](https://minhascontas.netlify.app/)
 - [ ] Create new logo (dev.finances => my accounts)
