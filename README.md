@@ -3,13 +3,6 @@
 </h1>
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-to-do">To-do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
-
-<p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
@@ -39,7 +32,7 @@ Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [*
 
 - [x] Theme Toggler (light | dark)
 - [x] [Deploy on Netlify](https://minhascontas.netlify.app/)
-- [ ] Create new logo (dev.finances => my accounts)
+- [ ] Create new logo (minhas contas)
 - [ ] Synchronization with DB
 - [ ] Add tags
 - [ ] Filter by date / tags
