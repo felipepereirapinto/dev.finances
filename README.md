@@ -26,7 +26,6 @@ This project was developed with the following technologies:
 
 dev.finances is a financial control application, where you can register and delete transactions and see the input and output balance 💰
 
-Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [**1st Discover Marathon**](https://github.com/rocketseat-education/maratona-discover-01).
 
 ## 🏃‍♂️ To-do
 
@@ -45,3 +44,5 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) file for mo
 ---
 
 Made by [Felipe](https://github.com/felipepereirapinto)
+
+Special thanks to [Rocketseat](https://discordapp.com/invite/gCRAFhc) for the [1st Discover Marathon](https://github.com/rocketseat-education/maratona-discover-01).
