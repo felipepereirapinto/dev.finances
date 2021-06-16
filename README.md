@@ -36,6 +36,10 @@ dev.finances is a financial control application, where you can register and dele
 - [ ] Add tags
 - [ ] Filter by date / tags
 - [ ] Duplicate / Repeat common expenses and earnings
+- [ ] Insert transactions direcly without modal overlay
+- [ ] Enclose list of transactions
+- [ ] Separate transactions section in the whole screen
+- [ ] Read bills and fill automatically -- probably the hardest
 
 ## 📝 License
 
