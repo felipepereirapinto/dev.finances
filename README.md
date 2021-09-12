@@ -32,14 +32,14 @@ dev.finances is a financial control application, where you can register and dele
 - [x] Theme Toggler (light | dark)
 - [x] [Deploy on Netlify](https://minhascontas.netlify.app/)
 - [ ] Create new logo (minhas contas)
-- [ ] Synchronization with DB
+- [ ] Synch with DB
 - [ ] Add tags
 - [ ] Filter by date / tags
 - [ ] Duplicate / Repeat common expenses and earnings
 - [ ] Insert transactions direcly without modal overlay
 - [ ] Enclose list of transactions
 - [ ] Separate transactions section in the whole screen
-- [ ] Read bills and fill automatically -- probably the hardest
+- [ ] Read bills and fill automatically (computer vision?)
 
 ## 📝 License
 
