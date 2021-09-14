@@ -20,7 +20,7 @@ const Modal = {
   },
 
   closeOutside() {
-    // Fecha o modal se clicar fora do formulário
+    // Clicking outside the form also closes the modal overlay
     const overlay = document.querySelector('.modal-overlay')
     overlay
       .addEventListener('click', e => e.target == overlay && Modal.close())

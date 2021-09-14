@@ -31,7 +31,7 @@ dev.finances is a financial control application, where you can register and dele
 
 - [x] Theme Toggler (light | dark)
 - [x] [Deploy on Netlify](https://minhascontas.netlify.app/)
-- [ ] Create new logo (minhas contas)
+- [x] Create new logo (minhas contas)
 - [ ] Synch with DB
 - [ ] Add tags
 - [ ] Filter by date / tags
